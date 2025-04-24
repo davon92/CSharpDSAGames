@@ -1,13 +1,39 @@
-﻿# Default ignored files
+﻿# Rider IDE
+/.idea/
 /shelf/
 /workspace.xml
-# Rider ignored files
 /contentModel.xml
 /projectSettingsUpdater.xml
 /.idea.CSharpDSAGames.iml
 /modules.xml
-# Editor-based HTTP Client requests
+
+# HTTP Client Requests
 /httpRequests/
-# Datasource local storage ignored files
+
+# Datasource local storage
 /dataSources/
 /dataSources.local.xml
+
+# Build outputs
+/bin/
+//obj/
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# Visual Studio Code
+.vscode/
+
+# Test results
+/TestResults/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
