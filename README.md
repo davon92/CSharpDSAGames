@@ -56,7 +56,11 @@ Welcome to CSharpDSAGames!
 
 ### Data Structures
 
--
+> ✅ = Complete | 🔄 = In Progress | 📝 = Planned
+
+| Feature | Status | Description |
+ |--------|--------|-------------|
+ | Stack | 📝 | Data structure that follows the LIFO principle (Last In First Out)|
 
 ### Algorithms
 
