@@ -69,10 +69,10 @@ Welcome to CSharpDSAGames!
 
 ### Games
 
--
-Stack Games: 
- 1. Stack Room Escape
- 2. Stack RPG Battle
+- Stack Games: 
+  1. Stack Room Escape
+  2. Stack RPG Battle
+
 ---
 
 ---
