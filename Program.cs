@@ -34,7 +34,7 @@ class Program
     {
         Console.WriteLine("Choose A Game:");
         Console.WriteLine("1. Stack Escape");
-        Console.WriteLine("2. RPG Battle");
+        Console.WriteLine("2. RPG 1Battle");
         
         string input = Console.ReadLine();
         

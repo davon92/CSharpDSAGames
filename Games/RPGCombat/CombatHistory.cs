@@ -9,7 +9,7 @@ public class CombatHistory
     {
         if (IsEmpty(_undoStack))
         {
-            throw new Exception("No action to undo");
+            Console.WriteLine("No Undo Avaliable");
         }
         
         var Action = _undoStack.Pop();
@@ -22,7 +22,7 @@ public class CombatHistory
     {
         if (IsEmpty(_redoStack))
         {
-            throw new Exception("No action to redo");
+            Console.WriteLine("No Redo Avaliable");
         }
         
         var Action = _redoStack.Pop();
