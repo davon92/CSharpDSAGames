@@ -1,0 +1,5 @@
+D:\CSharp_Projects\CSharpDSAGames\obj\Debug\net8.0\CSharpDSAGames_Fresh.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharp_Projects\CSharpDSAGames\obj\Debug\net8.0\CSharpDSAGames_Fresh.AssemblyInfoInputs.cache
+D:\CSharp_Projects\CSharpDSAGames\obj\Debug\net8.0\CSharpDSAGames_Fresh.AssemblyInfo.cs
+D:\CSharp_Projects\CSharpDSAGames\obj\Debug\net8.0\CSharpDSAGames_Fresh.csproj.CoreCompileInputs.cache
+D:\CSharp_Projects\CSharpDSAGames\obj\Debug\net8.0\CSharpDSAGames_Fresh.sourcelink.json

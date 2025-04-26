@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CSharpDSAGames/1.0.0": {
+        "runtime": {
+          "CSharpDSAGames.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSharpDSAGames/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

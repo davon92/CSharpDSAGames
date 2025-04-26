@@ -1,0 +1,15 @@
+D:\CSharp_Projects\CSharpDSAGames\bin\Debug\net8.0\CSharpDSAGames.exe
+D:\CSharp_Projects\CSharpDSAGames\bin\Debug\net8.0\CSharpDSAGames.deps.json
+D:\CSharp_Projects\CSharpDSAGames\bin\Debug\net8.0\CSharpDSAGames.runtimeconfig.json
+D:\CSharp_Projects\CSharpDSAGames\bin\Debug\net8.0\CSharpDSAGames.dll
+D:\CSharp_Projects\CSharpDSAGames\bin\Debug\net8.0\CSharpDSAGames.pdb
+D:\CSharp_Projects\CSharpDSAGames\obj\Debug\net8.0\CSharpDSAGames.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharp_Projects\CSharpDSAGames\obj\Debug\net8.0\CSharpDSAGames.AssemblyInfoInputs.cache
+D:\CSharp_Projects\CSharpDSAGames\obj\Debug\net8.0\CSharpDSAGames.AssemblyInfo.cs
+D:\CSharp_Projects\CSharpDSAGames\obj\Debug\net8.0\CSharpDSAGames.csproj.CoreCompileInputs.cache
+D:\CSharp_Projects\CSharpDSAGames\obj\Debug\net8.0\CSharpDSAGames.sourcelink.json
+D:\CSharp_Projects\CSharpDSAGames\obj\Debug\net8.0\CSharpDSAGames.dll
+D:\CSharp_Projects\CSharpDSAGames\obj\Debug\net8.0\refint\CSharpDSAGames.dll
+D:\CSharp_Projects\CSharpDSAGames\obj\Debug\net8.0\CSharpDSAGames.pdb
+D:\CSharp_Projects\CSharpDSAGames\obj\Debug\net8.0\CSharpDSAGames.genruntimeconfig.cache
+D:\CSharp_Projects\CSharpDSAGames\obj\Debug\net8.0\ref\CSharpDSAGames.dll
