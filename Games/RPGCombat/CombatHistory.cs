@@ -5,7 +5,7 @@ public class CombatHistory
     private Stack<CombatAction> _undoStack = new ();
     private Stack<CombatAction> _redoStack = new ();
 
-    public void Undo()
+    public CombatAction Undo()
     {
         if (IsEmpty(_undoStack))
         {
@@ -15,9 +15,10 @@ public class CombatHistory
         var Action = _undoStack.Pop();
         _redoStack.Push(Action);
         Console.WriteLine("Undoing Last Move Preformed");
+        return Action;
     }
 
-    public void Redo()
+    public CombatAction Redo()
     {
         if (IsEmpty(_redoStack))
         {
@@ -27,12 +28,14 @@ public class CombatHistory
         var Action = _redoStack.Pop();
         _undoStack.Push(Action);
         Console.WriteLine("Redoing Last Move Preformed");
+        return Action;
     }
 
-    public void PeekLastAction()
+    public CombatAction PeekLastAction()
     {
        var LastAction = _undoStack.Peek();
        Console.WriteLine($"Last Move Preformed{LastAction.ActionType} on {LastAction.AttackTarget}");
+       return LastAction;
     }
 
     public void RecordCombatAction(CombatAction action)
