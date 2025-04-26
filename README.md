@@ -70,23 +70,10 @@ Welcome to CSharpDSAGames!
 ### Games
 
 -
-
+Stack Games: 
+ 1. Stack Room Escape
+ 2. Stack RPG Battle
 ---
-
-## 📋 Contribution Plan
-
-Tasks are broken down into Markdown files inside `.github/ISSUE_TEMPLATES/`. Convert them into GitHub issues to track your progress.
-
-Example:
-
-- `001_stack.md` → Implement and test a stack with push/pop/peek
-- `002_bubble_sort.md` → Create terminal visual of Bubble Sort
-
----
-
-## 💡 Why This Exists
-
-This repo acts as your **technical resume** for showing mastery of CS fundamentals in a format game studios can appreciate. It’s clean, fast, and shows real programming ability with no game engine required.
 
 ---
 
