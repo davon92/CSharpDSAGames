@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharpDSAGames")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+431a4c2e3d9712afacef7fd830fa646ec1d54fb8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcec00afec5945904d45f8187a538cc2176c2452")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharpDSAGames")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharpDSAGames")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

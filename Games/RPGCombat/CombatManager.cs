@@ -42,36 +42,39 @@ public class CombatManager
             {
                 PlayersTurn();
             }
+            
+            CheckPlayerHealth();
+            CheckMonsterHealth();
         }
     }
 
     public void PlayersTurn()
     {
-        if (_playerHealth == 0)
-        {
-            Console.WriteLine("Player is Defeated");
-            _gameOver = true;
-        }
-        
         Console.WriteLine("Player's Health: " + _playerHealth);
         Console.WriteLine("Monsters's Health: " + _monsterHealth);
         
-        Console.WriteLine("Select an Action: 1: Fight, 2: Steal an item ,3: Use a Skill,4: Use an Item");
+        Console.WriteLine("Select an Action: 1: Fight, 2: Steal an item ,3: Use a Skill,4: Use an Health Potion");
         var input = Console.ReadLine();
 
         switch (input)
         {
             case "1":
-                Console.WriteLine("Player attacks  " + _playerHealth);
+                var damage = _rng.Next(1, 11);
+                Console.WriteLine($"Player Attacks for {damage}");
+                _monsterHealth -= damage;
                 break;
             case "2":
-                Console.WriteLine("Player attacks  " + _playerHealth);
+                Console.WriteLine("Player Steals Money From Monster" );
                 break;
             case "3":
-                Console.WriteLine("Player attacks  " + _playerHealth);
+                var skillDamage = _rng.Next(1, 21);
+                Console.WriteLine($"Player Uses a skilled attack {skillDamage}");
+                _monsterHealth -= skillDamage;
                 break;
             case "4":
-                Console.WriteLine("Player attacks  " + _playerHealth);
+                var healValue = _rng.Next(1, 9);
+                Console.WriteLine($"Player Heals for {healValue}");
+                _playerHealth += healValue;
                 break;
             default: Console.WriteLine("Not a valid Answer");
                 break;
@@ -81,28 +84,42 @@ public class CombatManager
         {
             _playerHealth = _playerMaxHealth;
         }
+
+        _turnTracker = TurnTracker.Monster;
     }
 
-    public void MonstersTurn()
+    public void CheckMonsterHealth()
     {
-        if (_monsterHealth == 0)
+        if (_monsterHealth <= 0)
         {
             Console.WriteLine("Monster is Defeated");
             _gameOver = true;
         }
+    }
+    
+    public void CheckPlayerHealth()
+    {
+        if (_playerHealth <= 0)
+        {
+            Console.WriteLine("Player is Defeated");
+            _gameOver = true;
+        }
+    }
 
+    public void MonstersTurn()
+    {
         var option = _rng.Next(0, 2);
         switch (option)
         {
             
             case 0:
                 var damage = _rng.Next(1, 12);
-                Console.WriteLine("Monster Attacks for {damage}");
+                Console.WriteLine($"Monster Attacks for {damage}");
                 _playerHealth -= damage;
                 break;
             case 1:
                 var health = _rng.Next(1, 10);
-                Console.WriteLine("Monster Heals for {health}");
+                Console.WriteLine($"Monster Heals for {health}");
                 _monsterHealth += health;
                 break;
         }
@@ -112,6 +129,7 @@ public class CombatManager
             _monsterHealth = _monsterMaxHealth;
         }
         
+        _turnTracker = TurnTracker.Player;
     }
     
     public int SetTurnOrder()
