@@ -61,7 +61,7 @@ Welcome to CSharpDSAGames!
 | Feature | Status | Description |
  |--------|--------|-------------|
  | Stack | ✅ | Data structure that follows the LIFO principle (Last In First Out)|
- | Queue | 🔄 | Data structure that follows the LIFO principle (Last In First Out)|
+ | Queue | 🔄 | Data structure that follows the FIFO principle (First In First Out)|
 
 ### Algorithms
 
