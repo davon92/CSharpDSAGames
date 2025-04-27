@@ -19,7 +19,7 @@ public class CombatManager
     private TurnTracker _turnTracker = new();
     private bool _gameOver = false;
     
-    public void StartBattle()
+    public void StartGame()
     {
         // Battle loop will go here
         switch (SetTurnOrder())

@@ -35,6 +35,7 @@ class Program
         Console.WriteLine("Choose A Game:");
         Console.WriteLine("1. Stack Escape");
         Console.WriteLine("2. Stack RPG Battle");
+        Console.WriteLine("3. Queue Boss Rush");
         
         string input = Console.ReadLine();
         
@@ -45,8 +46,12 @@ class Program
                 stackEscape.StartGame();
                 break;
             case "2":
-                CombatManager rpgBattle = new CombatManager();
-                rpgBattle.StartBattle();
+                CombatManager stackRPGBattle = new CombatManager();
+                stackRPGBattle.StartGame();
+                break;
+            case "3":
+                BossRush queueBossRush = new BossRush();
+                queueBossRush.StartGame();
                 break;
             default:
                 Console.Write("Option Not Found");
