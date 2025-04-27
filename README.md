@@ -58,11 +58,16 @@ Welcome to CSharpDSAGames!
 
 > ✅ = Complete | 🔄 = In Progress | 📝 = Planned
 
-| Feature | Status | Description |
- |--------|--------|-------------|
- | Stack | ✅ | Data structure that follows the LIFO principle (Last In First Out)|
- | Queue | ✅ | Data structure that follows the FIFO principle (First In First Out)|
-
+| Feature            | Status | Description |
+ |--------------------|--------|-------------|
+ | Stack              | ✅ | Data structure that follows the LIFO principle (Last In First Out)|
+ | Queue              | ✅ | Data structure that follows the FIFO principle (First In First Out)|
+| Linked List        | 🔄 | Data structure that follows the FIFO principle (First In First Out)|
+| Doubly Linked List | 📝 | Data structure that follows the FIFO principle (First In First Out)|
+| Trees              | 📝 | Data structure that follows the FIFO principle (First In First Out)|
+| Graphs             | 📝 | Data structure that follows the FIFO principle (First In First Out)|
+| Heaps              | 📝 | Data structure that follows the FIFO principle (First In First Out)|
+| Tries              | 📝 | Data structure that follows the FIFO principle (First In First Out)|
 ### Algorithms
 
 -
