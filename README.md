@@ -61,7 +61,7 @@ Welcome to CSharpDSAGames!
 | Feature | Status | Description |
  |--------|--------|-------------|
  | Stack | ✅ | Data structure that follows the LIFO principle (Last In First Out)|
- | Queue | 🔄 | Data structure that follows the FIFO principle (First In First Out)|
+ | Queue | ✅ | Data structure that follows the FIFO principle (First In First Out)|
 
 ### Algorithms
 
@@ -70,8 +70,10 @@ Welcome to CSharpDSAGames!
 ### Games
 
 - Stack Games: 
-  1. Stack Room Escape
-  2. Stack RPG Battle
+  - Stack Room Escape
+  - Stack RPG Battle
+- Queue Games:
+  - Queue Boss Rush
 
 ---
 
