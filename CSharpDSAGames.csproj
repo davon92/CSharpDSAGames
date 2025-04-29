@@ -5,4 +5,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="DataStructures\DoublyLinkedList\" />
+    <Folder Include="DataStructures\Graphs\" />
+    <Folder Include="DataStructures\Heaps\" />
+    <Folder Include="DataStructures\Trees\" />
+    <Folder Include="DataStructures\Tries\" />
+  </ItemGroup>
 </Project>

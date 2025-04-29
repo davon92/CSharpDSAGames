@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-namespace DataStructures
+﻿namespace DataStructures
 {
     public class DS_Stack<T>
     {
@@ -17,9 +16,9 @@ namespace DataStructures
             {
                 throw new System.Exception("Stack is Empty");
             }
-            var StoredItem = _items[Count - 1];
+            var storedItem = _items[Count - 1];
             _items.RemoveAt(_items.Count-1);
-            return StoredItem;
+            return storedItem;
         }
 
         public T Peek()

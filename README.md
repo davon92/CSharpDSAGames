@@ -87,8 +87,6 @@ Welcome to CSharpDSAGames!
 | Dijkstra's Algorithm | 📝 | Finds the shortest path between nodes in a graph with non-negative edge weights. |
 | A* Pathfinding      | 📝 | Optimized shortest path algorithm using heuristics; widely used in games for AI navigation. |
 
--
-
 ### Games
 
 - Stack Games: 
