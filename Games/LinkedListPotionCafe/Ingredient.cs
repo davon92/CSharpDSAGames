@@ -1,6 +1,9 @@
-﻿namespace CSharpDSAGames.Games.LinkedListPotionCafe;
+﻿using DataStructures;
 
-public class Ingredient
+namespace CSharpDSAGames.Games
 {
-    
+    public class Ingredient
+    {
+        public string Name;
+    }
 }

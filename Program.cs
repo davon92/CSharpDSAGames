@@ -53,6 +53,10 @@ class Program
                 BossRush queueBossRush = new BossRush();
                 queueBossRush.StartGame();
                 break;
+            case "4" :
+                PotionCafeManager potionCafe = new PotionCafeManager();
+                potionCafe.StartGame();
+                break;
             default:
                 Console.Write("Option Not Found");
                 ChooseType();

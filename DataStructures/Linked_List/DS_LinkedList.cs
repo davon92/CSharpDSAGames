@@ -1,4 +1,5 @@
-﻿namespace DataStructures
+﻿using System.Collections.Generic;
+namespace DataStructures
 {
     public class Node<T>
     {
@@ -9,7 +10,18 @@
     {
         private Node<T> _head;
         private Node<T> _tail;
-
+        public List<T> ToList()
+        {
+            var list = new List<T>();
+            var currentNode = _head;
+            while (currentNode != null)
+            {
+                list.Add(currentNode.Data);
+                currentNode = currentNode.Next;
+            }
+            return list;
+        }
+        
         public void Add(T item)
         {
             var newNode = new Node<T>{Data=item};
@@ -191,5 +203,8 @@
             return count;
         }
     }
+    
+
+
 }
 
