@@ -64,7 +64,7 @@ namespace DataStructures
                             _tail = previousNode;
                         }
                     }
-                    return true; // Move return OUTSIDE of else block
+                    return true;
                 }
 
                 previousNode = currentNode;
