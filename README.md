@@ -62,7 +62,7 @@ Welcome to CSharpDSAGames!
 |--------------------|--------|-------------|
 | Stack              | ✅ | Data structure that follows the **LIFO** principle (Last In First Out), used for undo systems, backtracking, parsing. |
 | Queue              | ✅ | Data structure that follows the **FIFO** principle (First In First Out), used for task scheduling, turn management, real-time systems. |
-| Linked List        | 🔄 | A linear collection where each element (node) points to the next; allows efficient insertions and deletions anywhere. |
+| Linked List        | ✅ | A linear collection where each element (node) points to the next; allows efficient insertions and deletions anywhere. |
 | Doubly Linked List | 📝 | A linked list where each node points both to the next and the previous node, enabling efficient two-way traversal. |
 | Trees              | 📝 | A hierarchical structure where each node has children, used for representing relationships like filesystems, decision trees, and scene graphs. |
 | Graphs             | 📝 | A flexible collection of nodes connected by edges; models complex networks like maps, quests, and AI behavior. |
