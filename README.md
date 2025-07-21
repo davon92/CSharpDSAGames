@@ -74,9 +74,9 @@ Welcome to CSharpDSAGames!
 
 | Algorithm           | Status | Description |
 |---------------------|--------|-------------|
-| Linear Search       | 🔄 | Simple scan through elements to find a match (no sorting required). |
+| Linear Search       | ✅ | Simple scan through elements to find a match (no sorting required). |
 | Binary Search       | 📝 | Efficient search on sorted arrays, repeatedly dividing search space by half. |
-| Bubble Sort         | 📝 | Simple sorting algorithm that repeatedly swaps adjacent elements if out of order. |
+| Bubble Sort         | ✅ | Simple sorting algorithm that repeatedly swaps adjacent elements if out of order. |
 | Insertion Sort      | 📝 | Builds a sorted array one element at a time by inserting into the correct position. |
 | Selection Sort      | 📝 | Repeatedly selects the minimum (or maximum) element and places it at the correct position. |
 | Merge Sort          | 📝 | Divide-and-conquer sorting algorithm that splits arrays and merges them back sorted. |
